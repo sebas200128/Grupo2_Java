@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author user
+ * @author Sebastian Rabanal
  */
 public class Ejer5 {
 
