@@ -4,10 +4,24 @@
  */
 package PC1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author user
  */
 public class Ejer5 {
-    
+
+    public static void main(String[] args) {
+
+        int n = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero N: "));
+
+        if (n <= 0) {
+            JOptionPane.showMessageDialog(null, "No hay numeros impares");
+               
+        }else{
+            int mayorImpar = (n % 2 == 0) ? n - 1 : n;
+            JOptionPane.showMessageDialog(null, "El numero impar es mas grande entre 1 y "+n+" es: "+mayorImpar);
+        }
+    }
 }
